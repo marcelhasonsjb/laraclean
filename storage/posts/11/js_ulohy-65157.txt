@@ -1,0 +1,41 @@
+1) NA STRANKE BUDE STVOREC (div) ALEBO OBRAZOK
+   KED NAN KLIKNETE, OD-ANIMUJE SA DOPRAVA
+.animate(), nezabudnut position: relative / absolute
+
+--------------
+2) PO KLIKNUTI NA STVOREC SA ZOBRAZI "LOADING" IKONKA, PO PAR SEKUNDACH ZMIZNE
+skombinujte s prvou ulohou, kde ikonka sa objavi na klik a zmizne, ked sa skonci animacia stvorca
+
+loading.io / ajaxload.info / do googla "ajax loader"
+on click
+
+pro level: setTimeout()
+
+// zobraz ikonku
+setTimeout(function() {
+	// skry ikonku
+}, 5000);
+
+--------------
+3) NA STRANKE BUDE STVOREC ALEBO OBRAZOK
+   KED BUDETE STLACAT SIPKY, BUDE SA POSUVAT DO PRISLUSNEHO SMERU
+position + nastavit v css top, left
+on keydown, napr. .css({ top: '+=5' })
+
+--------------
+4) PROGRESS BAR, KTORY SA ANIMACIOU NAPLNI, KED KLIKNETE
+   NA BUTTON
+on click, animate width
+
+--------------
+5) V PORTFOLIO STRANKE S VIACERYMI SERIAMI OBRAZKOV BUDE
+   VZDY ZOBRAZENA IBA JEDNA
+ked user klikne na link v menu, skryje sa aktualna seria a zobrazi dalsia
+
+
+
+
+--------------
+6) NA STRANKE BUDE FORMULAR S MENOM A HESLOM
+   PO ODOSLANI FORMULARU SA SKONTROLUJE, CI DO NICH USER NIECO NAPISAL
+on submit, val()
